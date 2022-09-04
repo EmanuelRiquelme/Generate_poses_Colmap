@@ -13,7 +13,7 @@ git clone https://github.com/EmanuelRiquelme/Generate_poses_Colmap
 3. Create a parent directory named points and a child directory named images and copy your images to the images directory.
 create the directories by.
 ``` bash
-mkdir -p points/folder
+mkdir -p points/images
 ```
 4. Run the script for extracting the features of the image using colmap
 ``` bash
