@@ -24,3 +24,4 @@ bash ./runcolmap.sh
 python3 gen_poses.py 
 ```
 ** the poses file will be stored on the points directory
+** Note numpy is required for running the python script.
