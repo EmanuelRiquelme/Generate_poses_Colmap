@@ -5,7 +5,7 @@
 * Note that pretty much all of the code was borrowed from the LLFF repo, so credits to the authors of the original repo.
 ## Instructions
 1. First you need to have installed [colmap](https://github.com/colmap/colmap)
-** Note that if you require Cuda acceleration you need to [compile colmap yourself](https://colmap.github.io/install.html)
+* Note that if you require Cuda acceleration you need to [compile colmap yourself](https://colmap.github.io/install.html)
 1. Clone the repo.
 ``` bash
 git clone https://github.com/EmanuelRiquelme/Generate_poses_Colmap
@@ -23,5 +23,5 @@ bash ./runcolmap.sh
 ```
 python3 gen_poses.py 
 ```
-** the poses file will be stored on the points directory
-** Note numpy is required for running the python script.
+* the poses file will be stored on the points directory
+* Note numpy is required for running the python script.
