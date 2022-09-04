@@ -1,12 +1,12 @@
 # Simple way to generate poses
 
 ## Why?
-* The objective of this repo is create an alternative [LLFF](https://github.com/fyusion/llff) repo to generate poses required as input for models such as NeRF without all of the bloat of having to run LLFF.
+* The objective of this repo is create an alternative [LLFF](https://github.com/fyusion/llff) repo to generate poses required for models such as NeRF without all of the bloat of having to run LLFF.
 * Note that pretty much all of the code was borrowed from the LLFF repo, so credits to the authors of the original repo.
 ## Instructions
 1. First you need to have installed [colmap](https://github.com/colmap/colmap)
 * Note that if you require Cuda acceleration you need to [compile colmap yourself](https://colmap.github.io/install.html)
-1. Clone the repo.
+2. Clone the repo.
 ``` bash
 git clone https://github.com/EmanuelRiquelme/Generate_poses_Colmap
 ```
