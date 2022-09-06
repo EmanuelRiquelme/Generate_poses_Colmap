@@ -17,7 +17,8 @@ mkdir -p points/images
 ```
 4. Run the script for extracting the features of the image using colmap
 ``` bash
-bash ./runcolmap.sh
+chmod +x runcolmap.sh
+./runcolmap.sh
 ```
 5. Run gen_poses.py script to generate the poses.
 ```
